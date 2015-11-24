@@ -13,3 +13,4 @@ myapp.controller("ResidentCtrl", function($scope, $http, $stateParams, SwapiServ
     });
   }
 });
+
