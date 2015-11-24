@@ -1,0 +1,11 @@
+* {
+	/*border: 1px solid red;*/
+}
+
+.header {
+	text-align: center;
+}
+
+tr {
+	min-width: 360px;
+}

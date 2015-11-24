@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="myapp">
+
+<head>
+  <title>Swapi & Angular</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/css/foundation.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.4/angular.js"></script>
+  <script src="//angular-ui.github.io/ui-router/release/angular-ui-router.js"></script>
+</head>
+
+<body>
+
+  <div class="row header">
+    <div class="columns medium-12">
+      <h1>SWAPI & Angular: An Instant Love Affair</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div ui-view></div>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="js/PlanetCtrl.js"></script>
+  <script src="js/ResidentCtrl.js"></script>
+  <script src="js/services.js"></script>
+</body>
+</html>
