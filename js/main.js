@@ -18,4 +18,3 @@ myapp.config(function($stateProvider, $urlRouterProvider){
     controller: "ResidentCtrl"
   })
 })
-
